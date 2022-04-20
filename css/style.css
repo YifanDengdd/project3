@@ -1,0 +1,108 @@
+body{
+    background-color: silver;
+}
+
+header {
+    background-color:wheat;
+    padding: 6% 10% 6% 6%;
+    margin-left: 0px;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #000011;
+    text-align: center;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3em;
+    color:chocolate;
+    text-align: center;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.0em;
+    color:chocolate;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1px;
+    border-style: double;
+    border-width: 2px;
+    margin: 20px 20px 20px 20px;
+    border-color: #000000;
+    background-color:skyblue;
+}
+
+p{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:chocolate;
+  text-align: center;
+}
+ul{
+    font-weight: 500;
+    font-size: 1.2em;
+    color:chocolate;
+}
+  
+#navigation li{
+    float:left;
+    width: 31%;
+    margin: .25% .25% .25% 1.25%;
+    text-align: center;
+}
+
+#navigation ul{
+    list-style-type:none;
+    padding:inherit;
+    margin:inherit;
+    overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+    background-color: white;
+}
+  
+#navigation ul li a{
+  text-decoration: none;
+  color:olive;
+  padding: .5em;
+  display: block;
+  background-color:tan;
+  border: .5px solid tan;
+  border-color:silver;
+  border-width: 2px;
+}
+
+#navigation ul li a:hover{
+    background-color: olive;
+    border: 1px solid silver;
+    color: tan;
+}
+
+.image{
+    background-color:white;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color:olive;
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+  
+.video{
+    background-color: white;
+    text-align: center;
+    border: 10px solid;
+    border-radius: 20px;
+    border-color:olive;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
