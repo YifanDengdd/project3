@@ -1,3 +1,4 @@
+var Map;
 function initMap() {
     const kunming = { lat:24.877508,lng: 102.826872 }; 
     const dianchi = { lat: 24.807832, lng: 102.699002 };
