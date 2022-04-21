@@ -1,21 +1,21 @@
 function initMap() {
-    const castle = { lat: 54.6867, lng: 25.2906 }; 
-    const flag = { lat: 54.68, lng: 25.06 };
+    const kunming = { lat:24.877508,lng: 102.826872 }; 
+    const dianchi = { lat: 24.807832, lng: 102.699002 };
     
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 10,
-      center: castle,
+      center: kunming,
     });
     const marker1 = new google.maps.Marker({
-      position: castle,
+      position: kunming,
       map: map,
     });
     
     const marker2 = new google.maps.Marker({
-      position: flag,
+      position: dianchi,
       map: map,
       animation: google.maps.Animation.BOUNCE,
-      icon: 'images/lithuaniatiny.jpg'
+      icon: 'image/dianChi.jpg'
     });
   }
   
