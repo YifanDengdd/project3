@@ -1,9 +1,9 @@
-var map;
+
 function initMap() {
     const kunming = { lat:24.877508,lng: 102.826872 }; 
     const dianchi = { lat: 24.807832, lng: 102.699002 };
     
-    const map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById("map"), {
       zoom: 10,
       center: kunming,
     });
@@ -20,4 +20,4 @@ function initMap() {
     });
   }
   
-  google.maps.event.addDomListener(window, 'load', initMap);
+  google.maps.event.addEventListener('load', initMap);
