@@ -15,6 +15,6 @@ function initMap(){
         position: dianchi,
         map:map,
         animation: google.maps.Animation.BOUNCE,
-        icon: 'image/dianChi.jpg'
+        icon: 'image/dianchi1.jpg'
     });
 goole.maps.event.addDomListener(window, 'load', initMap);}
