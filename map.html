@@ -18,9 +18,16 @@
         </ul>
     </nav>
     <h1>Yunnan Kunming</h1>
-	  <div id="border">
-	    <div id="map"></div>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8DNDZe7Kl5syFytsRseGCUY_aESqxvys&callback=initMap"></script>
-	  </div>
+	  <div id="map"></div>
+	  <script>
+        const map;
+        function initMap(){
+            map = google.maps.Map(document.getAnimations('map'),{
+                center: {lat:24.877508,lng: 102.826872 },
+                zoom: 8
+            });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8DNDZe7Kl5syFytsRseGCUY_aESqxvys&callback=initMap"></script>
 </body>
 </html>
