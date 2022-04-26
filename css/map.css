@@ -11,15 +11,6 @@ header {
     border-bottom: 1px solid #000011;
     text-align: center;
 }
-
-h1{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 3em;
-    color:chocolate;
-    text-align: center;
-}
-
 h2{
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
@@ -33,14 +24,6 @@ h2{
     margin: 20px 20px 20px 20px;
     border-color: #000000;
     background-color:skyblue;
-}
-
-p{
-  font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  color:chocolate;
-  text-align: center;
 }
 ul{
     font-weight: 500;
@@ -88,41 +71,10 @@ ul{
     border: 5px solid;
     border-radius: 20px;
     border-color:olive;
-    width: 800px;
-    height: 600px;
+    width: 400px;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
 }
-  
-.video{
-    background-color: white;
-    text-align: center;
-    border: 10px solid;
-    border-radius: 20px;
-    border-color:olive;
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#map {
-    height: 650px;
-    width: 1000px;
-    border-radius: 0px;
-    margin: 40px auto;
-  }
-  
-  #border {
-    height: 650px;
-    width: 1000px;
-    background-color:white;
-    margin:0 auto;
-    overflow: hidden;
-  }
-  html, body{
-      height:100%;
-      margin: 0;
-      padding: 0;
-  }
